@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nabarunshome65-tech.github.io/shome-enterprise-company/sitemap.xml
