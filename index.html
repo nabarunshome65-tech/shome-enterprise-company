@@ -80,17 +80,23 @@ html{scroll-behavior:smooth;-webkit-overflow-scrolling:touch}
 }
 @media(prefers-reduced-motion:reduce){:root{scroll-behavior:auto}section[id]{scroll-margin-top:0}.policy-card{transition:none}}
 
+
+/* Google Forms enquiry link — external form opens in a separate tab. */
+.form-cta{width:100%;min-height:48px;margin-top:16px;text-align:center}
+.hero-actions .btn{min-height:48px}
+.nav-cta span{font-size:16px;color:#05213c}
+@media(max-width:700px){.hero-actions .btn{width:100%;min-height:50px}.nav .nav-cta{width:100%;min-height:48px;margin-top:10px}.form-cta{min-height:50px}}
 </style>
 </head>
 <body>
 <header class="topbar">
   <a class="brand" href="#home" aria-label="Shome Enterprise home"><span class="brand-mark">SE</span><span class="brand-text">Shome Enterprise<small>CONNECTING TODAY · SECURING TOMORROW</small></span></a>
   <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">☰</button>
-  <nav class="nav" id="nav"><a href="#services">Services</a><a href="#about">About us</a><a href="#policies">Company policies</a><a href="#partners">Partners</a><a href="#work">Experience</a><a href="#contact">Contact</a></nav>
+  <nav class="nav" id="nav"><a href="#services">Services</a><a href="#about">About us</a><a href="#policies">Company policies</a><a href="#partners">Partners</a><a href="#work">Experience</a><a href="#contact">Contact</a><a class="nav-cta" href="https://forms.gle/foAU1o5H5uRGuuDu5" target="_blank" rel="noopener noreferrer" aria-label="Open Shome Enterprise enquiry form in a new tab">Submit an Enquiry <span aria-hidden="true">↗</span></a></nav>
 </header>
 <main>
 <section class="hero" id="home"><div class="wrap hero-inner">
-  <div class="hero-copy-block reveal"><div class="kicker">IT infrastructure · Security · Connectivity</div><h1>Smarter systems.<br><span>Stronger connections.</span></h1><p class="hero-copy">Reliable IT infrastructure and integrated security solutions, thoughtfully planned, professionally installed, and ready for what comes next.</p><div class="hero-actions"><a class="plain-link" href="#services">Explore services <span>↓</span></a></div><div class="hero-proof"><span class="proof-check">✓</span><span><strong>Plan. Design. Install. Maintain.</strong><small>One trusted team from start to finish.</small></span></div></div>
+  <div class="hero-copy-block reveal"><div class="kicker">IT infrastructure · Security · Connectivity</div><h1>Smarter systems.<br><span>Stronger connections.</span></h1><p class="hero-copy">Reliable IT infrastructure and integrated security solutions, thoughtfully planned, professionally installed, and ready for what comes next.</p><div class="hero-actions"><a class="btn" href="https://forms.gle/foAU1o5H5uRGuuDu5" target="_blank" rel="noopener noreferrer" aria-label="Open Shome Enterprise enquiry form in a new tab">Submit an Enquiry <span aria-hidden="true">↗</span></a><a class="plain-link" href="#services">Explore services <span>↓</span></a></div><div class="hero-proof"><span class="proof-check">✓</span><span><strong>Plan. Design. Install. Maintain.</strong><small>One trusted team from start to finish.</small></span></div></div>
   <div class="visual reveal" aria-label="Illustration of connected technology"><div class="visual-halo"></div><div class="core">SE</div>
     <span class="orbital-icon oi-1"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8m-4-4v4M7 9h4m-4 4h7"/></svg></span>
     <span class="orbital-icon oi-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 10a14 14 0 0 1 18 0M6 13a9 9 0 0 1 12 0m-9 3a4 4 0 0 1 6 0m-3 3h.01"/></svg></span>
@@ -132,7 +138,7 @@ html{scroll-behavior:smooth;-webkit-overflow-scrolling:touch}
   </div>
 </section>
 
-<section class="section contact" id="contact" aria-labelledby="contact-title"><div class="wrap contact-grid"><div><div class="section-label" style="color:#73e7f7">07 — Contact</div><h2 class="section-title" id="contact-title">Need a reliable<br><em>technology partner?</em></h2><p class="contact-copy">Speak directly with Shome Enterprise about networking, CCTV, intercom, fibre optic, fire alarm, public address, installation or maintenance requirements.</p></div><div class="contact-card"><span class="mini-label">CONTACT SHOME ENTERPRISE</span><a class="contact-row" href="tel:+919831118120"><small>PHONE 01</small>+91 98311 18120 <b>↗</b></a><a class="contact-row" href="tel:+919339866545"><small>PHONE 02</small>+91 93398 66545 <b>↗</b></a><a class="contact-row" href="mailto:sales@shomeenterprise.com"><small>EMAIL</small>sales@shomeenterprise.com <b>↗</b></a><p class="note">Networking · CCTV · Intercom · Fire & Safety<br>Supply, Installation & Maintenance</p></div></div></section>
+<section class="section contact" id="contact" aria-labelledby="contact-title"><div class="wrap contact-grid"><div><div class="section-label" style="color:#73e7f7">07 — Contact</div><h2 class="section-title" id="contact-title">Need a reliable<br><em>technology partner?</em></h2><p class="contact-copy">Speak directly with Shome Enterprise about networking, CCTV, intercom, fibre optic, fire alarm, public address, installation or maintenance requirements.</p></div><div class="contact-card"><span class="mini-label">CONTACT SHOME ENTERPRISE</span><a class="contact-row" href="tel:+919831118120"><small>PHONE 01</small>+91 98311 18120 <b>↗</b></a><a class="contact-row" href="tel:+919339866545"><small>PHONE 02</small>+91 93398 66545 <b>↗</b></a><a class="contact-row" href="mailto:sales@shomeenterprise.com"><small>EMAIL</small>sales@shomeenterprise.com <b>↗</b></a><p class="note">Networking · CCTV · Intercom · Fire & Safety<br>Supply, Installation & Maintenance</p><a class="btn form-cta" href="https://forms.gle/foAU1o5H5uRGuuDu5" target="_blank" rel="noopener noreferrer" aria-label="Open Shome Enterprise enquiry form in a new tab">Submit an Enquiry <span aria-hidden="true">↗</span></a></div></div></section>
 
 </main>
 <footer><div class="wrap footer-inner"><a class="brand footer-brand" href="#home"><span class="brand-mark">SE</span><span>Shome Enterprise<small>CONNECTING TODAY · SECURING TOMORROW</small></span></a><span class="copyright">© <span id="year"></span> Shome Enterprise. All rights reserved.</span><a class="back-top" href="#home">BACK TO TOP ↑</a></div></footer>
